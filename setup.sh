@@ -7,7 +7,7 @@ echo "* virtualenv -p `which python3` django-isomorphic-demo-env"
 echo "* source django-isomorphic-demo-env/bin/activate"
 echo "* git clone git@github.com:wildfish/django-isomorphic-example.git"
 echo "* pip install django"
-echo "* pip install https://github.com/wildfish/django-isomorphic/archive/master.tar.gz#egg=django-isomorphic"
+echo "* pip install django-isomorphic"
 echo "* cd django-isomorphic-example/isodemo/static/js/"
 echo "* npm install"
 echo "* ./node_modules/browserify/bin/cmd.js -t reactify -r react ./src/index.js -o ./dist/dist.js"
@@ -30,7 +30,7 @@ virtualenv -p `which python3` django-isomorphic-demo-env
 source django-isomorphic-demo-env/bin/activate
 git clone git@github.com:wildfish/django-isomorphic-example.git
 pip install django
-pip install https://github.com/wildfish/django-isomorphic/archive/master.tar.gz#egg=django-isomorphic
+pip install django-isomorphic
 cd django-isomorphic-example/isodemo/static/js/
 npm install
 ./node_modules/browserify/bin/cmd.js -t reactify -r react ./src/index.js -o ./dist/dist.js
